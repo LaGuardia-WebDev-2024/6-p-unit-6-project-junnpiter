@@ -7,13 +7,15 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255, 25);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
-  
+  noStroke();
+  rect(66, 52, 260, 50);
+  rect(66, 52, 50, 260);
+  rect(282, 52, 50, 260);
+  rect(66, 262, 260, 50);
 
 }
 
