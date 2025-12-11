@@ -1,21 +1,33 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(0, 0, 0);
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255, 25);
+  fill(255,255,255);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   noStroke();
-  rect(66, 52, 260, 50);
-  rect(66, 52, 50, 260);
-  rect(282, 52, 50, 260);
-  rect(66, 262, 260, 50);
+  rect(60, 46, 270, 60);
+  rect(60, 46, 60, 270);
+  rect(276, 46, 60, 270);
+  rect(60, 256, 270, 60);
+
+  //logo without lines
+  stroke(255, 255, 255)
+  strokeWeight(60);
+  line(120, 180, 280, 100);
+  line(120, 180, 280, 265);
+
+  //logo lines
+  stroke(0, 0, 0)
+  strokeWeight(9)
+  line(271, 144, 338, 109)
+ 
 
 }
 
