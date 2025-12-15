@@ -24,9 +24,10 @@ void draw(){
   line(120, 180, 280, 265);
 
   //logo lines
-  stroke(0, 0, 0)
-  strokeWeight(9)
-  line(271, 144, 338, 109)
+  stroke(0, 0, 0);
+  strokeWeight(9);
+  line(271, 144, 338, 109);
+  line(82, 171, 190, 110)
  
 
 }
