@@ -19,16 +19,17 @@ void draw(){
 
   //logo without lines
   stroke(255, 255, 255)
-  strokeWeight(60);
-  line(120, 180, 280, 100);
-  line(120, 180, 280, 265);
+  strokeWeight(55);
+  line(120, 180, 280, 110);
+  line(120, 180, 280, 260);
 
   //logo lines
   stroke(0, 0, 0);
   strokeWeight(9);
-  line(271, 144, 338, 109);
-  line(82, 171, 190, 110)
- 
+  line(271, 150, 338, 115);
+  line(73, 177, 196, 111);
+  line(73, 177, 199, 252);
+  line(73, 177, 310, 319);
 
 }
 
