@@ -35,7 +35,7 @@ html{
 }
 
 h2{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #start{
@@ -46,6 +46,12 @@ h2{
   text-align: right;
 }
 
-text {
-  color:white
+
+h1 {
+  text-align: center
+}
+
+p {
+  color: white;
+  text-align: center;
 }
