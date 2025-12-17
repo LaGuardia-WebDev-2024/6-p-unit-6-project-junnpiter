@@ -55,3 +55,9 @@ p {
   color: white;
   text-align: center;
 }
+
+#anothersentence {
+  text-align: center;
+  color: rgb(122, 150, 104);
+  background-color: rgb(196, 210, 194);
+}
